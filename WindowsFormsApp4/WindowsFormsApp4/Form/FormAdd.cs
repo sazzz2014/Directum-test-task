@@ -25,7 +25,7 @@ namespace WindowsFormsApp4
             if (comboBox1.SelectedIndex == 0 || comboBox1.SelectedIndex == 1 || comboBox1.SelectedIndex == 2)
             {
                 dataGridView1.Columns.Add("1", "Кол-во денег");
-                dataGridView1.Columns.Add("2", "Единица измерения");
+                dataGridView1.Columns.Add("2", "Валюта");
                 if (comboBox1.SelectedIndex == 0)
                 {
                     dataGridView1.Columns.Add("3", "Банк");
@@ -78,6 +78,7 @@ namespace WindowsFormsApp4
                 else
                     elementCorrect = false;
             }
+            
 
             if (elementCorrect)
             {

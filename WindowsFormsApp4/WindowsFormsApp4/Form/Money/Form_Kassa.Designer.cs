@@ -59,7 +59,7 @@
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "Единица измерения";
+            this.Column3.HeaderText = "Валюта";
             this.Column3.Name = "Column3";
             // 
             // Form_Kassa

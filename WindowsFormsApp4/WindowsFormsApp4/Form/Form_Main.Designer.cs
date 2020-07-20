@@ -111,15 +111,15 @@
             // большиеАктивыToolStripMenuItem
             // 
             this.большиеАктивыToolStripMenuItem.Name = "большиеАктивыToolStripMenuItem";
-            this.большиеАктивыToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.большиеАктивыToolStripMenuItem.Text = "Большие активы";
+            this.большиеАктивыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.большиеАктивыToolStripMenuItem.Text = "Основные фонды";
             this.большиеАктивыToolStripMenuItem.Click += new System.EventHandler(this.большиеАктивыToolStripMenuItem_Click);
             // 
             // небольшиеАктивыToolStripMenuItem
             // 
             this.небольшиеАктивыToolStripMenuItem.Name = "небольшиеАктивыToolStripMenuItem";
-            this.небольшиеАктивыToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.небольшиеАктивыToolStripMenuItem.Text = "Небольшие активы";
+            this.небольшиеАктивыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.небольшиеАктивыToolStripMenuItem.Text = "Материалы";
             this.небольшиеАктивыToolStripMenuItem.Click += new System.EventHandler(this.небольшиеАктивыToolStripMenuItem_Click);
             // 
             // contextMenuStrip1

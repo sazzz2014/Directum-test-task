@@ -89,11 +89,11 @@ namespace WindowsFormsApp4.Assets
         public enum TypeUnsafe
         {
             /// <summary>
-            /// Основной фонд.
+            /// Основные фонды.
             /// </summary>
             Inventory,
             /// <summary>
-            /// Материал.
+            /// Материалы.
             /// </summary>
             Nomenclator
         }

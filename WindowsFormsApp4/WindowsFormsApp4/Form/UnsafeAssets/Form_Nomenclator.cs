@@ -25,8 +25,8 @@ namespace WindowsFormsApp4
                 {
                     var transformedItem = item as UnsafeAssets;
                     if (transformedItem.typeUnsafe == UnsafeAssets.TypeUnsafe.Nomenclator)
-                        dataGridView1.Rows.Add("Материал", transformedItem.UnitMeasurement,
-                            transformedItem.Count, transformedItem.ProductionDate, transformedItem.InitialBalanceValue,
+                        dataGridView1.Rows.Add("Материал", transformedItem.Count,
+                            transformedItem.UnitMeasurement, transformedItem.ProductionDate, transformedItem.InitialBalanceValue,
                             transformedItem.RemainsBalanceValue, transformedItem.MarketValue);
                 }
             }

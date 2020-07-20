@@ -97,7 +97,7 @@
             this.ClientSize = new System.Drawing.Size(970, 454);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form_Big";
-            this.Text = "Большие активы ";
+            this.Text = "Основные фонды";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

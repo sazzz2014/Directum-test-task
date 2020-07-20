@@ -55,6 +55,7 @@
             // 
             this.Column1.HeaderText = "Тип денег";
             this.Column1.Name = "Column1";
+            this.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
             // Column2
             // 
@@ -63,7 +64,7 @@
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "Единица измерения";
+            this.Column3.HeaderText = "Валюта";
             this.Column3.Name = "Column3";
             // 
             // Column4

@@ -43,8 +43,8 @@
             "Банк",
             "Касса",
             "Талон",
-            "big",
-            "small"});
+            "Основные фонды",
+            "Материалы"});
             this.comboBox1.Location = new System.Drawing.Point(162, 28);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
