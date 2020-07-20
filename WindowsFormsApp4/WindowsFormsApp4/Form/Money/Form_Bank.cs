@@ -17,6 +17,7 @@ namespace WindowsFormsApp4
         {
             InitializeComponent();
         }
+        int id = 1;
 
         public void Output(List<Asset> assets)
         {
@@ -26,7 +27,7 @@ namespace WindowsFormsApp4
                 {
                     var transformedItem = item as Money;
                     if (transformedItem.typeMoney == Money.TypeMoney.Bank)
-                        dataGridView1.Rows.Add("Банк", transformedItem.TotalSum, item.Currency, 
+                        dataGridView1.Rows.Add(id++, "Банк", transformedItem.TotalSum, item.Currency, 
                             transformedItem.BankName, transformedItem.AccountNumber);
                 }
             }

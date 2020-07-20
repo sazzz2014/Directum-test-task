@@ -17,6 +17,8 @@ namespace WindowsFormsApp4
         {
             InitializeComponent();
         }
+        int id = 1;
+
         public void Output(List<Asset> assets)
         {
             foreach (var item in assets)
@@ -25,7 +27,7 @@ namespace WindowsFormsApp4
                 {
                     var transformedItem = item as UnsafeAssets;
                     if (transformedItem.typeUnsafe == UnsafeAssets.TypeUnsafe.Nomenclator)
-                        dataGridView1.Rows.Add("Материал", transformedItem.Count,
+                        dataGridView1.Rows.Add(id++, "Материал", transformedItem.Count,
                             transformedItem.UnitMeasurement, transformedItem.ProductionDate, transformedItem.InitialBalanceValue,
                             transformedItem.RemainsBalanceValue, transformedItem.MarketValue);
                 }

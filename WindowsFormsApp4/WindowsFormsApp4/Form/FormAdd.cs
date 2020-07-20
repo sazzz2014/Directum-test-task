@@ -62,6 +62,24 @@ namespace WindowsFormsApp4
             dataGridView1.Visible = true;
             label2.Visible = true;
             buttonSave.Visible = true;
+
+            DataGridViewComboBoxColumn DGVCBC = new DataGridViewComboBoxColumn();
+            
+            dataGridView1.Columns.Add(DGVCBC);
+            //dataGridView1.Columns[1] as DataGridViewComboBoxColumn;
+            //dataGridView1.Columns[1];
+
+
+            //string[] countrys = new string[] { "США", "ОАЭ", "ЮАР" };
+            //(dataGridView1.Columns[0] as DataGridViewComboBoxColumn).DataSource = countrys;
+
+            //DataGridViewComboBoxCell dcombo = new DataGridViewComboBoxCell();
+            //dcombo.Items.Add("A");
+            //dcombo.Items.Add("B");
+            //dcombo.Items.Add("C");
+            //dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[dataGridView1.CurrentCell.ColumnIndex] = dcombo;
+
+
         }
 
         public Asset assets{ get; set; }
